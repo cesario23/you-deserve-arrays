@@ -10,9 +10,10 @@ function getLastItemFrom (array){
 }
 
 function getIndex3 (array){
-  if (array < 4){
+  if (array.length <= 4){
     return array [array.length -1]
-  }else {
+  }
+  else {
     return array [3]
   }
 }
